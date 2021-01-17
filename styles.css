@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+main {
+    display: flex;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #ff6900;
+    border-radius: 0;
+}
+
+
+
+
+#mains {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    color: #fff;
+   
+  }
+  
+  #mains div {
+      padding-left: 5vh;
+    -ms-flex: 2;  /* IE 10 */  
+    flex: 2;
+  }
+
+  .about-section {
+    padding: 10px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .foot{
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: white;
+  }
+  
+  
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttons {
+    background-color: #383b38;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .buttons:hover {
+    background-color: #555;
+  }
+  img {
+    border-radius: 60%;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .p {
+      color: white;
+  }
+  .title {
+    color: rgb(255, 255, 255);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
